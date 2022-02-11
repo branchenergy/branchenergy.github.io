@@ -25,9 +25,9 @@ of reports in place without employing ten data engineers or losing our minds.
 
 ## Snowflake Pipes
 
-Snowflake’s pipes are one of its key features. You define a ‘stage’—a place in cloud
+Snowflake’s pipes are one of its key features. You define a stage (a place in cloud
 storage which includes a file of a particular type and schema, and which allows you to
-query the data as if it were a table; a table for its data; and a pipe—which defines a
+query the data as if it were a table); a table for its data; and a pipe—which defines a
 `COPY INTO` statement for copying the data in the file to its target table. Crucially,
 pipes can be set to autoingest based on notifications from e.g. an SNS topic (and its
 equivalents on Azure and GCP).
@@ -74,7 +74,7 @@ locals {
 }
 ```
 
-In this case the contents of our YAML file–i.e. the prefix and table names–is:
+In this example the contents of our YAML file–i.e. the prefix and table names–is:
 
 ```yaml
 - first
