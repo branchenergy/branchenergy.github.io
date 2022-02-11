@@ -1,6 +1,5 @@
 ---
-layout: post
-title:  Terraforming Snowflake
+title:  Terraforming Snowpipe
 author: Matt Badger
 date:   2022-02-10 16:56:00 +0000
 categories: data
@@ -10,7 +9,7 @@ categories: data
 Using the snowflake Terraform provider maintained by the Chan-Zuckerberg Institute, we
 have automated the process of creating S3 bucket notifications, and Snowflake stages,
 pipes and tables for automatically loading data into Snowflake. [We have published the
-module right here on GitHub.](https://github.com/branchenergy/terraforming-snowpipe)
+module right here on GitHub.](https://github.com/branchenergy/snowpipe)
 
 ## Airflow
 

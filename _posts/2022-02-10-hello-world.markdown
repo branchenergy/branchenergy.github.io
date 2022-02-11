@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Hello World!"
 date:   2022-02-10 16:40:59 +0000
 categories: data
