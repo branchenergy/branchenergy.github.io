@@ -12,6 +12,9 @@ layout: none
       {%- include scripts/lib/throttle.js -%}
       {%- include scripts/lib/lazyload.js -%}
     </script>
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}    
     {%- include scripts/variables.html -%}
   </head>
   <body>
